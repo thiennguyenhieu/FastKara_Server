@@ -1,0 +1,6 @@
+database:
+  username: vobvzwysgonnrs
+  password: 8775b8a9c4779a823935e8e1e24d8a6a6b8d9493dbcacbcba9fee821993afd7a
+  host: ec2-52-1-95-247.compute-1.amazonaws.com
+  port: 5432
+  databaseName: d4b9223lo42afv
