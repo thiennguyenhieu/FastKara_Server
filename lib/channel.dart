@@ -1,5 +1,6 @@
 import 'package:fastkara_server/fastkara_server.dart';
 import 'controller/songbook_controller.dart';
+import 'controller/songbooktest_controller.dart';
 
 class MyConfiguration extends Configuration {
   MyConfiguration(String configPath) : super.fromFile(File(configPath));
@@ -33,6 +34,7 @@ class FastkaraServerChannel extends ApplicationChannel {
     final router = Router();
 
     router.route("/songbook").link(() => SondBookController(context));
+    router.route("/songbooktest").link(() => SondBookTestController(context));
 
     return router;
   }
