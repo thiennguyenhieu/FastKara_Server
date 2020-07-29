@@ -33,8 +33,8 @@ class FastkaraServerChannel extends ApplicationChannel {
   Controller get entryPoint {
     final router = Router();
 
-    router.route("/songbook").link(() => SondBookController(context));
-    router.route("/songbooktest").link(() => SondBookTestController(context));
+    router.route("/songbook").link(() => SongBookController(context));
+    router.route("/songbooktest").link(() => SongBookTestController(context));
 
     return router;
   }
