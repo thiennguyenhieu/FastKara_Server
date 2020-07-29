@@ -1,8 +1,8 @@
 import 'package:fastkara_server/fastkara_server.dart';
 import '../model/songbook_model.dart';
 
-class SondBookController extends ResourceController {
-  SondBookController(this.context);
+class SongBookController extends ResourceController {
+  SongBookController(this.context);
 
   final ManagedContext context;
 
