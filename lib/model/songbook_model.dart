@@ -13,6 +13,12 @@ class _SongBook {
   String singer;
 
   @Column()
+  String viewcount;
+
+  @Column()
+  String searchcount;
+
+  @Column()
   String imgurl;
 
   @Column()
